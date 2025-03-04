@@ -29,7 +29,7 @@ def handler(event, context):
         else:
             currentIssue.transitions['close'].execute(resolution='fixed', comment='Задача переведа в статус "Закрыта", так как работы над связанной задачей завершены!')
     except BaseException as BaseError:
-        print("Как ты сюда вообше попал, ебик??")
+        print("Исключение!")
     
     return {'statusCode':200}
   
