@@ -11,5 +11,5 @@
   - В ином случае - бездействует
 
 Заметки:
-- issue.transition[].execute() - достуупные переходы можно получить по API: api.tracker.yandex.net/v2/issues/{{issue.key}}/transitions
+- issue.transition[id].execute() - достуупные переходы можно получить по API: api.tracker.yandex.net/v2/issues/{{issue.key}}/transitions / в качестве аргумента используется ID статуса
 - Добавить обработку, которая проверяет доступность статуса, куда переходим.
