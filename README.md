@@ -1,4 +1,4 @@
-# yatrack_close_related_issue
+# yandex_tracker_close_related_issue
 Обработчик, закрывающий задачу, если связанные задачи находятся в статусе "Закрыт" ("Закрыта").
 
 ## Как работать
